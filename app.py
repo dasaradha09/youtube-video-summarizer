@@ -1,13 +1,16 @@
 import streamlit as st
 import os
 import tempfile
+from dotenv import load_dotenv
 import re
 import google.generativeai as genai
 from  youtube_transcript_api import YouTubeTranscriptApi
 from fpdf import FPDF
 import io
 
-genai.configure(api_key=)
+load_dotenv()
+
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model=genai.GenerativeModel("gemini-pro")
 
 
