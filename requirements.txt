@@ -2,8 +2,3 @@ youtube_transcript_api
 streamlit
 google-generativeai
 fpdf
-io
-re
-os
-tempfile
-python-dotenv
