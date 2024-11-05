@@ -7,6 +7,13 @@
 
 ---
 
+## **Demo Video :**
+
+
+https://github.com/user-attachments/assets/ae13db64-5bd4-4a28-903f-d975b6a40920
+
+
+
 ## **Features**
 
 ### **YouTube Video Transcription:**
@@ -21,14 +28,11 @@
 - **YouTube Video Preview**: Displays a thumbnail of the video before processing the transcript.
 - **Text Input**: Simply paste the YouTube video link to start the process.
 
-<<<<<<< HEAD
 ### **Download Summary** (Future Enhancement):
 - Users will be able to download the summary in different formats like TXT, PDF, etc.
 =======
 ### **Download Summary**:
 - Users will be able to download the summary in PDF format.
->>>>>>> 18bf7c4237cf0982cbf3ef83166b0e3a98b709e3
-
 ---
 
 ## **Tech Stack**
@@ -76,20 +80,17 @@
 ## **How to Use**
 
 1. **Enter YouTube Video Link**: Paste the link of the YouTube video you want to summarize.
-<<<<<<< HEAD
 2. **Get Video Transcript**: The app will automatically fetch the transcript of the video.
 3. **Generate Summary**: The Google Gemini Pro LLM will summarize the transcript into concise, key points.
 4. **View Results**: The detailed summary will be displayed on the page.
 =======
 2. **click on generate summary**: click on the generate summary button then app extracts text from video and gnerates summary of the video within 5-10 seconds.
 3. **click on download summary**: The entire summary will be downloaded as PDF.
->>>>>>> 18bf7c4237cf0982cbf3ef83166b0e3a98b709e3
 
 ---
 
 ## **Future Enhancements**
 
-<<<<<<< HEAD
 - **Real-time Transcription**: Add live video transcription for ongoing YouTube streams.
 - **Multimedia Support**: Extend support for other types of media like audio and podcasts.
 - **Search Functionality**: Allow users to search for specific keywords in the transcript.
@@ -98,7 +99,6 @@
 - **Multi language summarization**: Currently, this app only works for English videos, but in the future, we plan to expand support for all languages.
 - **Multimedia Support**: Extend support for other types of media like audio and podcasts.
 - **Search Functionality**: Allow users to search for specific keywords in the transcript.
->>>>>>> 18bf7c4237cf0982cbf3ef83166b0e3a98b709e3
 
 ---
 
