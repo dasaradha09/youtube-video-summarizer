@@ -2,13 +2,6 @@ youtube_transcript_api
 streamlit
 google-generativeai
 fpdf
-<<<<<<< HEAD
-io
-re
-os
 tempfile
 python-dotenv
-=======
-python-dotenv
 gunicorn
->>>>>>> 18bf7c4237cf0982cbf3ef83166b0e3a98b709e3
