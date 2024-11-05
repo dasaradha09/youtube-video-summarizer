@@ -34,7 +34,12 @@ def transcriptGenerator(video_url):
         return transcription_text
     except Exception as e:
         return f"An error occurred: {e}"
-    
+def extract_video_id(url):
+    # Regular expression to match YouTube video URLs
+    regex = r'(?:https?://)?(?:www\.)?(?:youtube\.com/(?:[^/]+/.*/|(?:v|e(?:mbed)?)|.*[?&]v=)|youtu\.be/)([a-zA-Z0-9_-]{11})'
+    match = re.search(regex, url)
+    return match.group(1) if match else None
+
 def summarize(transcript,prompt):
     response=model.generate_content(prompt+transcript)
     return response.text
@@ -71,6 +76,15 @@ st.title("YOUTUBE VIDEO SUMMARIZER")
 youtube_link=st.text_input("enter the video link")
 summary=""
 if st.button("Generate summary"):
+    video_id = extract_video_id(youtube_link)
+    if video_id:
+        # Construct thumbnail URL
+        thumbnail_url = f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg"
+
+        # Display the thumbnail
+        st.image(thumbnail_url, caption="Video Thumbnail", use_column_width=True)
+    else:
+        st.error("Invalid YouTube URL. Please try again.")
     transcript=transcriptGenerator(youtube_link)
     st.markdown("##detailednote")
     summary=summarize(transcript,prompt)
