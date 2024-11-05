@@ -10,10 +10,9 @@
 ## **Demo Video :**
 
 
-https://github.com/user-attachments/assets/ae13db64-5bd4-4a28-903f-d975b6a40920
+https://github.com/user-attachments/assets/782594ea-7c6f-43d0-8098-c2f4dd43a61d
 
-
-
+---------------
 ## **Features**
 
 ### **YouTube Video Transcription:**
